@@ -86,6 +86,11 @@ This is the same metric as Query 4, but filtered down using a label selector ({m
 
 ## 6. Screenshots
 
-- `node-exporter.png` - the Node Exporter metrics endpoint at localhost:9100/metrics, confirming it exposes raw metrics text
-- `targets.png` - the Prometheus Targets page showing both the prometheus and node-exporter jobs with state UP
-- `promql.png` - a successful PromQL query executed in the Prometheus UI
+### Node Exporter Metrics
+![Node Exporter metrics](screenshots/node-exporter.png) - the Node Exporter metrics endpoint at localhost:9100/metrics, confirming it exposes raw metrics text
+
+### Prometheus Targets
+![Prometheus targets](screenshots/targets.png) - the Prometheus Targets page showing both the prometheus and node-exporter jobs with state UP
+
+### PromQL Query Result
+![PromQL query](screenshots/promql.png) - a successful PromQL query executed in the Prometheus UI
